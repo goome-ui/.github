@@ -1,0 +1,42 @@
+name: Desktop not working
+description: A desktop, compositor or OS goome doesnt work on yet
+labels: ["desktop"]
+body:
+  - type: input
+    id: desktop
+    attributes:
+      label: Which desktop / compositor / OS
+      placeholder: niri 25.05 on Arch, Wayland
+    validations:
+      required: true
+  - type: checkboxes
+    id: fails
+    attributes:
+      label: What doesnt work
+      options:
+        - label: Overlay isnt visible
+        - label: Clicks dont pass through
+        - label: No screen capture
+        - label: Keys dont work
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else that goes wrong
+  - type: input
+    id: backend
+    attributes:
+      label: goome_backend_name output
+      description: The hello example prints it on its first line
+      placeholder: "backend: x11"
+    validations:
+      required: true
+  - type: input
+    id: forced
+    attributes:
+      label: GOOME_BACKEND you tried
+      description: Like GOOME_BACKEND=x11 or wayland, and what each one did
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: text

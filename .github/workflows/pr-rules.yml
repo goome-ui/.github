@@ -1,0 +1,28 @@
+name: pr rules
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  close:
+    if: >-
+      github.event.pull_request.state == 'open' &&
+      github.event.pull_request.author_association != 'OWNER' &&
+      github.event.pull_request.author_association != 'MEMBER'
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          gh api "repos/$REPO/labels" -f name=rules-closed -f color=b60205 -f description="closed by the pr rules" >/dev/null 2>&1 || true
+          gh api "repos/$REPO/issues/$PR/comments" -f body="Closed automatically, sorry. This repo is just the goome-ui profile and the default files every goome repo uses, so it doesnt take PRs. Want something changed here? Open an issue in [c-goome](https://github.com/goome-ui/c-goome/issues) instead." >/dev/null
+          gh api "repos/$REPO/issues/$PR/labels" -f "labels[]=rules-closed" >/dev/null
+          gh api -X PATCH "repos/$REPO/pulls/$PR" -f state=closed >/dev/null
+          echo closed
