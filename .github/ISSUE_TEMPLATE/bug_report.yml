@@ -1,0 +1,105 @@
+name: Bug report
+description: Something in goome is broken
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Found a security hole? Dont post it here, use the security report link instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. run the hello example
+        2. click the box
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Linux
+        - Windows
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: Arch, Fedora 41, Windows 11 24H2, macOS 15...
+    validations:
+      required: true
+  - type: dropdown
+    id: desktop
+    attributes:
+      label: Desktop / compositor
+      options:
+        - GNOME
+        - KDE
+        - Hyprland
+        - sway
+        - XFCE
+        - Windows
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: desktop_other
+    attributes:
+      label: Desktop version (or which one if you picked Other)
+      placeholder: GNOME 47, Plasma 6.2...
+  - type: dropdown
+    id: session
+    attributes:
+      label: X11 or Wayland
+      options:
+        - Wayland
+        - X11
+        - Not on linux
+    validations:
+      required: true
+  - type: input
+    id: backend
+    attributes:
+      label: goome_backend_name output
+      description: The hello example prints it on its first line
+      placeholder: "backend: wayland"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: goome version or commit
+      placeholder: 0.1.0 or a commit hash
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or logs
+      description: Drag images in here, paste logs as text
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the existing issues and this isnt one of them
+          required: true
