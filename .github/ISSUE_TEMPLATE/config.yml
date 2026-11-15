@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/goome-ui/c-goome/security/advisories/new
+    about: Found a security hole? Tell me privately here, not in a public issue
+  - name: Questions
+    url: https://sevvy-wevvy.com/discord
+    about: Ask on the Discord
