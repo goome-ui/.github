@@ -54,3 +54,10 @@
 | <a href="https://github.com/goome-ui/awesome-goome"><b>awesome-goome</b></a> | A list of everything made with goome, apps, mods, guides and tools. Add yours with a PR |
 
 </div>
+
+<h3 align="center">🫶 Contributors 🫶</h3>
+
+<p align="center">
+Thanks to everyone who helps out across all the goome repos, every fix, issue and PR counts!<br> <br>
+<a href="https://github.com/goome-ui/c-goome/graphs/contributors"><img src="https://contrib.rocks/image?repo=goome-ui/c-goome" alt="contributors"></a>
+</p>
