@@ -51,6 +51,7 @@
 | <a href="https://github.com/goome-ui/examples"><b>examples</b></a> | Small apps and overlays you can copy from, mods and engine demos. The <a href="https://github.com/goome-ui/examples/releases/latest">apps to download</a> are on its releases |
 | <a href="https://github.com/goome-ui/goome-cli"><b>goome-cli</b></a> | <code>goome new</code>, makes you a new project from a template |
 | <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with snippets, hover docs, new project and a builder preview |
+| <a href="https://github.com/goome-ui/jetbrains-goome"><b>jetbrains-goome</b></a> | Plugin for Rider and the other JetBrains IDEs, same features as the VS Code one |
 | <a href="https://goome-ui.github.io/docs/templates/"><b>goome-app-template-*</b></a> | A tiny ready app to start from in <a href="https://github.com/goome-ui/goome-app-template-c">C</a>, <a href="https://github.com/goome-ui/goome-app-template-csharp">C#</a>, <a href="https://github.com/goome-ui/goome-app-template-python">Python</a>, <a href="https://github.com/goome-ui/goome-app-template-java">Java</a> or <a href="https://github.com/goome-ui/goome-app-template-godot">Godot</a> |
 | <a href="https://github.com/goome-ui/awesome-goome"><b>awesome-goome</b></a> | A list of everything made with goome, apps, mods, guides and tools. Add yours with a PR |
 
