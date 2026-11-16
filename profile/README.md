@@ -47,10 +47,16 @@
 | <a href="https://github.com/goome-ui/python-goome"><b>python-goome</b></a> | Python bindings over ctypes, nothing to build |
 | <a href="https://github.com/goome-ui/java-goome"><b>java-goome</b></a> | Java 22+ bindings (FFM or LWJGL), plus Fabric and NeoForge mods |
 | <a href="https://github.com/goome-ui/godot-goome"><b>godot-goome</b></a> | A GDExtension so you can use it in Godot |
+| <a href="https://github.com/goome-ui/rust-goome"><b>rust-goome</b></a> | Rust crates, <code>goome</code> on top and <code>goome-sys</code> for the raw C |
+| <a href="https://github.com/goome-ui/node-goome"><b>node-goome</b></a> | Node bindings, an N-API addon with prebuilds so theres nothing to compile |
+| <a href="https://github.com/goome-ui/go-goome"><b>go-goome</b></a> | Go bindings over cgo, just <code>go get</code> it |
+| <a href="https://github.com/goome-ui/zig-goome"><b>zig-goome</b></a> | A Zig package, zig cc builds goome.h for you |
+| <a href="https://github.com/goome-ui/lua-goome"><b>lua-goome</b></a> | Lua 5.4 and LuaJIT module, works in LOVE too |
+| <a href="https://github.com/goome-ui/obs-goome"><b>obs-goome</b></a> | OBS Studio source that draws a goome ui in your stream, timers, now playing, goal bars or your own builder files, and you can click it |
 | <a href="https://github.com/goome-ui/docs"><b>docs</b></a> | The <a href="https://goome-ui.github.io/docs/">docs site</a> and the <a href="https://goome-ui.github.io/docs/builder/">UI builder</a> |
 | <a href="https://github.com/goome-ui/examples"><b>examples</b></a> | Small apps and overlays you can copy from, mods and engine demos. The <a href="https://github.com/goome-ui/examples/releases/latest">apps to download</a> are on its releases |
 | <a href="https://github.com/goome-ui/goome-cli"><b>goome-cli</b></a> | <code>goome new</code>, makes you a new project from a template |
-| <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with snippets, hover docs, new project and a builder preview |
+| <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with a goome side panel, snippets, hover docs, new project and a builder preview |
 | <a href="https://github.com/goome-ui/jetbrains-goome"><b>jetbrains-goome</b></a> | Plugin for Rider and the other JetBrains IDEs, same features as the VS Code one |
 | <a href="https://goome-ui.github.io/docs/templates/"><b>goome-app-template-*</b></a> | A tiny ready app to start from in <a href="https://github.com/goome-ui/goome-app-template-c">C</a>, <a href="https://github.com/goome-ui/goome-app-template-csharp">C#</a>, <a href="https://github.com/goome-ui/goome-app-template-python">Python</a>, <a href="https://github.com/goome-ui/goome-app-template-java">Java</a> or <a href="https://github.com/goome-ui/goome-app-template-godot">Godot</a> |
 | <a href="https://github.com/goome-ui/awesome-goome"><b>awesome-goome</b></a> | A list of everything made with goome, apps, mods, guides and tools. Add yours with a PR |
