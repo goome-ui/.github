@@ -27,7 +27,9 @@
 <p align="center">
   goome puts a see-through layer on top of every app on your screen. You draw on it, only the parts you draw take clicks, and everything else goes right through to whatever is under it. Good for game overlays and little HUDs.<br> <br>
   You can make apps and overlays with it, or game mods and UI inside an engine, all from the same code.<br> <br>
-  It's a single C header you drop in and it runs on Linux (X11 and Wayland), Windows and macOS. There are C# and Python bindings, Java and Godot ones too, and it works in Unity and Minecraft mods.<br> <br>
+  It's a single C header you drop in and it runs on Linux (X11 and Wayland), Windows and macOS. You can use it from C, C#, Python, Java, Rust, Node, Go, Zig or Lua, and it works in Unity, Godot, Minecraft mods and OBS too.<br> <br>
+  <b>0.5 is out</b> with animations, emoji and right to left text, typing in other languages (IME), screen reader support and five new languages. <a href="https://goome-ui.github.io/docs/versions/">Whats new</a><br> <br>
+  Get it with <code>pip install goome</code>, <code>dotnet add package GoomeSharp</code>, <code>go get github.com/goome-ui/go-goome</code>, or just grab <a href="https://github.com/goome-ui/c-goome/releases/latest">goome.h</a>. Theres a <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">VS Code extension</a> and a <a href="https://plugins.jetbrains.com/plugin/36174-goome">Rider plugin</a> too.<br> <br>
   The <a href="https://goome-ui.github.io/docs/">docs</a> have everything, and the <a href="https://goome-ui.github.io/docs/builder/">UI builder</a> lets you drag a layout together in your browser and gives you the code.<br>
   <a href="https://github.com/goome-ui/examples">Examples</a> are up too if you want to jump in.<br> <br>
   To try it first, grab one of the <a href="https://goome-ui.github.io/docs/downloads/">ready made apps</a> from the <a href="https://github.com/goome-ui/examples/releases/latest">examples release</a>. To start your own, <code>goome new</code> from <a href="https://github.com/goome-ui/goome-cli">goome-cli</a> makes a project from a template in any of the languages.<br> <br>
@@ -56,8 +58,8 @@
 | <a href="https://github.com/goome-ui/docs"><b>docs</b></a> | The <a href="https://goome-ui.github.io/docs/">docs site</a> and the <a href="https://goome-ui.github.io/docs/builder/">UI builder</a> |
 | <a href="https://github.com/goome-ui/examples"><b>examples</b></a> | Small apps and overlays you can copy from, mods and engine demos. The <a href="https://github.com/goome-ui/examples/releases/latest">apps to download</a> are on its releases |
 | <a href="https://github.com/goome-ui/goome-cli"><b>goome-cli</b></a> | <code>goome new</code>, makes you a new project from a template |
-| <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with a goome side panel, snippets, hover docs, new project and a builder preview |
-| <a href="https://github.com/goome-ui/jetbrains-goome"><b>jetbrains-goome</b></a> | Plugin for Rider and the other JetBrains IDEs, same features as the VS Code one |
+| <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with a goome side panel, snippets, hover docs, new project and a builder preview. On the <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">Marketplace</a> |
+| <a href="https://github.com/goome-ui/jetbrains-goome"><b>jetbrains-goome</b></a> | Plugin for Rider and the other JetBrains IDEs, same features as the VS Code one. On the <a href="https://plugins.jetbrains.com/plugin/36174-goome">JetBrains Marketplace</a> |
 | <a href="https://goome-ui.github.io/docs/templates/"><b>goome-app-template-*</b></a> | A tiny ready app to start from in <a href="https://github.com/goome-ui/goome-app-template-c">C</a>, <a href="https://github.com/goome-ui/goome-app-template-csharp">C#</a>, <a href="https://github.com/goome-ui/goome-app-template-python">Python</a>, <a href="https://github.com/goome-ui/goome-app-template-java">Java</a> or <a href="https://github.com/goome-ui/goome-app-template-godot">Godot</a> |
 | <a href="https://github.com/goome-ui/awesome-goome"><b>awesome-goome</b></a> | A list of everything made with goome, apps, mods, guides and tools. Add yours with a PR |
 
