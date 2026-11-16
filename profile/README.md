@@ -5,7 +5,7 @@
 <h1 align="center">🫠 goome 🫠</h1>
 
 <p align="center">
-<b>See-through, always on top overlays for any program. Draw on top of everything and only what you draw takes clicks. Hotkeys and screen grabs too, plus a built in UI kit.</b>
+<b>See-through overlays, normal app windows, game mod menus and engine ui for any C program. One file, no dependencies, Linux, Windows, Mac.</b>
 </p>
 
 <p align="center">
