@@ -1,4 +1,9 @@
 <p align="center">
+  <b>🌐 <a href="https://goome-ui.github.io/docs/builder/">Try it in your browser</a> 🌐</b><br>
+  <sub>drag a ui together in the <a href="https://goome-ui.github.io/docs/builder/">builder</a>, or see the <a href="https://goome-ui.github.io/docs/browser/">real goome running in a page</a>, nothing to install</sub>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/goome-ui/.github/main/profile/logo.png" alt="goome" width="150">
 </p>
 
@@ -29,7 +34,7 @@
   You can make apps and overlays with it, or game mods and UI inside an engine, all from the same code.<br> <br>
   It's a single C header you drop in and it runs on Linux (X11 and Wayland), Windows and macOS. You can use it from C, C#, Python, Java, Rust, Node, Go, Zig or Lua, and it works in Unity, Godot, Minecraft mods and OBS too.<br> <br>
   <b>0.5 is out</b> with animations, emoji and right to left text, typing in other languages (IME), screen reader support and five new languages. <a href="https://goome-ui.github.io/docs/versions/">Whats new</a><br> <br>
-  Get it with <code>pip install goome</code>, <code>dotnet add package GoomeSharp</code>, <code>io.github.goome-ui:goome</code> from Maven Central, <code>go get github.com/goome-ui/go-goome</code>, or just grab <a href="https://github.com/goome-ui/c-goome/releases/latest">goome.h</a>. Theres a <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">VS Code extension</a> and a <a href="https://plugins.jetbrains.com/plugin/36174-goome">Rider plugin</a> too.<br> <br>
+  Theres an install line for every language right below.<br> <br>
   The <a href="https://goome-ui.github.io/docs/">docs</a> have everything, and the <a href="https://goome-ui.github.io/docs/builder/">UI builder</a> lets you drag a layout together in your browser and gives you the code.<br>
   <a href="https://github.com/goome-ui/examples">Examples</a> are up too if you want to jump in.<br> <br>
   To try it first, grab one of the <a href="https://goome-ui.github.io/docs/downloads/">ready made apps</a> from the <a href="https://github.com/goome-ui/examples/releases/latest">examples release</a>. To start your own, <code>goome new</code> from <a href="https://github.com/goome-ui/goome-cli">goome-cli</a> makes a project from a template in any of the languages.<br> <br>
@@ -37,6 +42,23 @@
   Do you like this project? If so, please let me know!
   <a href="https://sevvy-wevvy.com/discord">Discord</a>
 </p>
+
+<h3 align="center">⚡ Install ⚡</h3>
+
+<div align="center">
+
+| Language | Install |
+| :---: | :---: |
+| C | grab <a href="https://github.com/goome-ui/c-goome/releases/latest">goome.h</a> and include it |
+| Python | <code>pip install goome</code> |
+| C# | <code>dotnet add package GoomeSharp</code> |
+| Java | <code>io.github.goome-ui:goome</code> on Maven Central |
+| Rust | <code>goome = "0.5"</code> in your Cargo.toml |
+| Go | <code>go get github.com/goome-ui/go-goome</code> |
+| VS Code | <code>goome-ui.vscode-goome</code> on the <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">Marketplace</a> or <a href="https://open-vsx.org/extension/goome-ui/vscode-goome">Open VSX</a> |
+| JetBrains | <a href="https://plugins.jetbrains.com/plugin/36174-goome">goome</a> from the plugin marketplace |
+
+</div>
 
 <h3 align="center">📦 Repos 📦</h3>
 
