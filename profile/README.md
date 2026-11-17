@@ -1,6 +1,6 @@
 <p align="center">
-  <b>🌐 <a href="https://goome-ui.github.io/docs/builder/">Try it in your browser</a> 🌐</b><br>
-  <sub>drag a ui together in the <a href="https://goome-ui.github.io/docs/builder/">builder</a>, or see the <a href="https://goome-ui.github.io/docs/browser/">real goome running in a page</a>, nothing to install</sub>
+  <b>🌐 <a href="https://goome-ui.github.io/docs/try/">Try it in your browser</a> 🌐</b><br>
+  <sub>play a game and use an app made with goome, or drag a ui together in the <a href="https://goome-ui.github.io/docs/builder/">builder</a>, nothing to install</sub>
 </p>
 
 <p align="center">
