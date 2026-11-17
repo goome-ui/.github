@@ -55,6 +55,7 @@
 | Java | <code>io.github.goome-ui:goome</code> on Maven Central |
 | Rust | <code>goome = "0.5"</code> in your Cargo.toml |
 | Go | <code>go get github.com/goome-ui/go-goome</code> |
+| CLI | <code>pipx install goome-cli</code>, then <code>goome new</code> makes a project and <code>goome update</code> keeps it current |
 | VS Code | <code>goome-ui.vscode-goome</code> on the <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">Marketplace</a> or <a href="https://open-vsx.org/extension/goome-ui/vscode-goome">Open VSX</a> |
 | JetBrains | <a href="https://plugins.jetbrains.com/plugin/36174-goome">goome</a> from the plugin marketplace |
 
@@ -79,7 +80,7 @@
 | <a href="https://github.com/goome-ui/obs-goome"><b>obs-goome</b></a> | OBS Studio source that draws a goome ui in your stream, timers, now playing, goal bars or your own builder files, and you can click it |
 | <a href="https://github.com/goome-ui/docs"><b>docs</b></a> | The <a href="https://goome-ui.github.io/docs/">docs site</a> and the <a href="https://goome-ui.github.io/docs/builder/">UI builder</a> |
 | <a href="https://github.com/goome-ui/examples"><b>examples</b></a> | Small apps and overlays you can copy from, mods and engine demos. The <a href="https://github.com/goome-ui/examples/releases/latest">apps to download</a> are on its releases |
-| <a href="https://github.com/goome-ui/goome-cli"><b>goome-cli</b></a> | <code>goome new</code>, makes you a new project from a template |
+| <a href="https://github.com/goome-ui/goome-cli"><b>goome-cli</b></a> | <code>goome new</code> makes you a new project from a template, <code>goome build --web</code> runs it in the browser. <code>pipx install goome-cli</code> |
 | <a href="https://github.com/goome-ui/vscode-goome"><b>vscode-goome</b></a> | VS Code extension with a goome side panel, snippets, hover docs, new project and a builder preview. On the <a href="https://marketplace.visualstudio.com/items?itemName=goome-ui.vscode-goome">Marketplace</a> |
 | <a href="https://github.com/goome-ui/jetbrains-goome"><b>jetbrains-goome</b></a> | Plugin for Rider and the other JetBrains IDEs, same features as the VS Code one. On the <a href="https://plugins.jetbrains.com/plugin/36174-goome">JetBrains Marketplace</a> |
 | <a href="https://goome-ui.github.io/docs/templates/"><b>goome-app-template-*</b></a> | A tiny ready app to start from in <a href="https://github.com/goome-ui/goome-app-template-c">C</a>, <a href="https://github.com/goome-ui/goome-app-template-csharp">C#</a>, <a href="https://github.com/goome-ui/goome-app-template-python">Python</a>, <a href="https://github.com/goome-ui/goome-app-template-java">Java</a>, <a href="https://github.com/goome-ui/goome-app-template-godot">Godot</a>, <a href="https://github.com/goome-ui/goome-app-template-rust">Rust</a>, <a href="https://github.com/goome-ui/goome-app-template-node">Node</a>, <a href="https://github.com/goome-ui/goome-app-template-go">Go</a>, <a href="https://github.com/goome-ui/goome-app-template-zig">Zig</a> or <a href="https://github.com/goome-ui/goome-app-template-lua">Lua</a> |
